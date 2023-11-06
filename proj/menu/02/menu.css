@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightblue;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: cornflowerblue;
+    color:black;
+
+}
+
+.ativo{
+    background-color:dodgerblue;
+    color: white;
+}
+
+.Conteudo{
+    margin-left: 200px;
+    padding: 1px 16px;
+    text-align: center;
+}

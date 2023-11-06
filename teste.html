@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Meus Projetos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .margin {
+      margin-bottom: 45px;
+    }
+
+    .bg-1 {
+      background-color: black;
+      color: #1abc9c;
+    }
+
+    .bg-2 {
+      background-color: #222222;
+      color: whitesmoke;
+    }
+
+    .bg-3 {
+      background-color: black;
+      color: whitesmoke;
+    }
+
+    .bg-4 {
+      background-color: #222222;
+      color: #1abc9c;
+    }
+
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      background-color: #222222;
+      text-decoration-color: #1abc9c;
+    }
+
+    .navbar-nav li a:hover {
+      color: #23fcd0 !important;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      // Add animation to buttons
+      $("a[href^='proj']").hover(function() {
+        $(this).animate({
+          "padding-left": "20px"
+        }, 200);
+      }, function() {
+        $(this).animate({
+          "padding-left": "0"
+        }, 200);
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">AV</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="conhecimentos.html">Conhecimentos</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="https://saojosedoscampos.sp.senai.br" target="blank">Escola Senai</a></li>
+          <li><a href="https://emb

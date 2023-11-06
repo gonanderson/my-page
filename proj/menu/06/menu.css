@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+ul.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    overflow: hidden;
+}
+ul.topnav li{
+    float:left;
+}
+ul.topnav li a{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.topnav li a:hover:not(.ativo){
+    background-color: cornflowerblue;
+    color:black;
+}
+
+ul.topnav li .ativo{
+    background-color:dodgerblue;
+    color: white;
+}
+ul.topnav li.destaque{
+    float: right;
+}
+@media screen and (max-width: 600px){
+    ul.topnav li.destaque, ul.topnav li{
+        float:none;
+    }
+}
+.Conteudo{
+    margin: 20px 10px 15px;
+    padding: 20px;
+    height: 100%;
+    font-size: 16pt;
+    line-height: 0.1;
+    
+}

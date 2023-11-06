@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+li{
+    float: left; 
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center
+}
+
+li a:hover{
+    background-color: cornflowerblue;
+    color:black;
+
+}
+
+.ativo{
+    background-color:dodgerblue;
+    color: white;
+}
+
+.Destaque{
+    float: right;
+}
